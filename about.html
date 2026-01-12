@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Jinghong - Jinghong Technology</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #667eea;
+        }
+
+        .content {
+            background: white;
+            margin: 3rem auto;
+            padding: 4rem 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            max-width: 900px;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .highlight h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .values {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .value-card {
+            background: #f5f7fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .value-card h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #667eea;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 2rem 1.5rem;
+                margin: 2rem auto;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Jinghong Technology</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Jinghong</a></li>
+                <li><a href="privacy.html">Privacy Statement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>About Jinghong</h1>
+        
+        <div class="highlight">
+            <h3>Jinghong (HongKong) Technology Limited</h3>
+            <p>Leading the future of short-form entertainment</p>
+        </div>
+
+        <h2>Our Story</h2>
+        <p>
+            Jinghong (HongKong) Technology Limited is a forward-thinking technology company 
+            specializing in the development and distribution of premium short drama content. 
+            Founded with a vision to revolutionize how audiences consume entertainment, we 
+            combine cutting-edge technology with compelling storytelling to deliver an 
+            unparalleled viewing experience.
+        </p>
+
+        <p>
+            In an era where attention spans are shorter and content consumption patterns are 
+            evolving, we recognized the growing demand for high-quality, bite-sized entertainment. 
+            Our platform brings together the best short dramas from around the world, making 
+            premium content accessible to audiences everywhere.
+        </p>
+
+        <h2>Our Mission</h2>
+        <p>
+            Our mission is to democratize access to premium short-form entertainment while 
+            supporting creators and storytellers worldwide. We believe that great stories 
+            shouldn't be limited by format or duration, and that every moment of entertainment 
+            should be meaningful and engaging.
+        </p>
+
+        <h2>Our Values</h2>
+        <div class="values">
+            <div class="value-card">
+                <h3>Innovation</h3>
+                <p>We continuously push the boundaries of technology to enhance the viewing experience and support content creators.</p>
+            </div>
+            <div class="value-card">
+                <h3>Quality</h3>
+                <p>We curate only the finest content, ensuring that every piece meets our high standards for storytelling and production.</p>
+            </div>
+            <div class="value-card">
+                <h3>User-Centric</h3>
+                <p>Our users are at the heart of everything we do. We design our platform with their needs and preferences in mind.</p>
+            </div>
+            <div class="value-card">
+                <h3>Global Perspective</h3>
+                <p>We celebrate diversity and bring together stories from different cultures, languages, and perspectives.</p>
+            </div>
+        </div>
+
+        <h2>What We Do</h2>
+        <p>
+            Jinghong Technology operates a state-of-the-art short drama streaming platform that 
+            offers users access to a vast library of premium short-form content. Our platform 
+            features:
+        </p>
+        <ul style="margin-left: 2rem; margin-bottom: 1.5rem; color: #555;">
+            <li style="margin-bottom: 0.5rem;">A curated selection of high-quality short dramas across multiple genres</li>
+            <li style="margin-bottom: 0.5rem;">Advanced streaming technology for seamless playback</li>
+            <li style="margin-bottom: 0.5rem;">Personalized recommendations powered by AI</li>
+            <li style="margin-bottom: 0.5rem;">Multi-device support for viewing anywhere, anytime</li>
+            <li style="margin-bottom: 0.5rem;">Support for multiple languages and subtitles</li>
+        </ul>
+
+        <h2>Our Commitment</h2>
+        <p>
+            At Jinghong Technology, we are committed to providing a safe, secure, and enjoyable 
+            platform for both content creators and viewers. We invest heavily in technology 
+            infrastructure, content curation, and user experience to ensure that our platform 
+            remains at the forefront of the short-form entertainment industry.
+        </p>
+
+        <p>
+            As we continue to grow, we remain dedicated to our core values and our mission to 
+            transform how the world experiences short-form entertainment. We invite you to join 
+            us on this exciting journey.
+        </p>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Jinghong</a>
+                <a href="privacy.html">Privacy Statement</a>
+            </div>
+            <p>&copy; 2026 Jinghong (HongKong) Technology Limited. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
